@@ -1,0 +1,732 @@
+/********** menu strings ********************/
+/*** Workspace menu ***/
+"About This Computer" = "このコンピュータについて";
+"More Info..." = "詳細情報";
+"About Workspace" = "Workspace について";
+"Preferences..." = "設定...";
+
+"Services" = "サービス";
+"Hide Workspace" = "Workspace を隠す";
+"Hide Others" = "他を隠す";
+"Show All" = "全て表示";
+"Empty Trash" = "ゴミ箱を空にする";
+
+"Restart..." = "再起動...";
+"Are you sure you want to quit\nall applications and restart now?"
+= "再起動しますか? \nアプリケーションはすべて終了します.";
+
+"Shut Down..." = "シャットダウン...";
+"Are you sure you want to quit\nall applications and shut down now?"
+ = "シャットダウンしますか? \nアプリケーションはすべて終了します.";
+
+"Log Out..." = "ログアウト...";
+/* Dialog */
+/*"Log Out" = "ログアウト";*/
+"Are you sure you want to quit\nall applications and log out now?"
+  = "ログアウトしますか? \nアプリケーションはすべて終了します.";
+
+/*** File menu ***/
+"File" = "ファイル";
+"New Workspace Window" = "Workspace ウィンドウを開く";
+"New Folder" = "新規フォルダ";
+"Open" = "開く";
+"Open With" = "アプリケーションを指定して開く";
+"Open as Folder" = "フォルダとして開く";
+"Print" = "印刷";
+"Close Window" = "Window を閉じる";
+"Get Info" = "情報を見る";
+
+"Compress" = "圧縮する";
+"Duplicate" = "複製する";
+"Make Alias" = "エイリアスを作成";
+"Quick Look \"item\"" = "Quick Look \"item\"";
+"Share" = "シェアする";
+"Move to Trash" = "ゴミ箱に移動する";
+"Destroy" = "削除する";
+"Find" = "検索";
+"Label" = "ラベル";
+
+/*** Edit menu ***/
+"Edit" = "編集";
+"Undo" = "元に戻す";
+"Redo" = "やり直す";
+"Cut" = "切り取り";
+"Copy" = "コピー";
+"Paste" = "貼り付け";
+"Select All" = "すべて選択";
+
+/*** View menu ***/
+"View" = "表示";
+"as Icons" = "アイコン";
+"as List" = "リスト";
+"as Columns" = "カラム";
+"Use Stacks" = "スタックを使用";
+"View Behavior" = "表示方法";
+"Browsing" = "ブラウジング";
+"Spatial" = "スペーシャル";
+"Set Browsing as Default" = "ブラウジングをデフォルトにする";
+"Set Spatial as Default" = "スペーシャルをデフォルトにする";
+
+"Show" = "表示";
+"Name only" = "名前のみ";
+"Kind" = "種類";
+"Size" = "サイズ";
+"Modification date" = "更新日";
+"Owner" = "所有者";
+"Role" = "Role";
+
+"Icon Size" = "アイコンサイズ";
+"Icon Position" = "アイコン位置";
+"Up" = "上";
+"Left" = "左";
+"Thumbnails" = "サムネイル";
+"Make thumbnail(s)" = "サムネイルの作成";
+"Remove thumbnail(s)" = "サムネイルの削除";
+"Label Size" = "ラベルサイズ";
+
+"Sort By" = "表示順序";
+"Name" = "名前";
+"Kind" = "種類";
+"Date Modified" = "更新日";
+"Date Created"="作成日";
+"Size" = "サイズ";
+"Tags" = "タグ";
+
+/*** Go menu ***/
+"Go" = "移動";
+"Back" = "戻る";
+"Forward" = "進む";
+"Recents" = "Recents";
+"Documents" = "ドキュメント";
+"Downloads" = "ダウンロード";
+"Home" = "ホーム";
+"Computer" = "コンピュータ";
+/*"Network" = "ネットワーク";*/
+"Applications" = "アプリケーション";
+"Utilities" = "ユーティリティ";
+"Go to Folder..." = "フォルダへ移動...";
+"Connect to Server..." = "サーバーへ接続...";
+
+/*** Tools menu ***/
+"Tools" = "ツール";
+"Inspectors" = "インスペクタ";
+"Show Inspectors" = "インスペクタの表示";
+"Contents" = "コンテンツ";
+"Annotations" = "注釈";
+"Run..." = "実行...";
+
+/*** Window menu ***/
+"Window" = "ウィンドウ";
+"Minimize" = "最小化";
+"Zoom" = "拡大";
+"Bring All to Front" = "全て前面に表示";
+
+/*** Help menu ***/
+"Help" = "ヘルプ";
+"Workspace Help" = "Workspaceのヘルプ";
+"Gershwin Help" = "Gershwinのヘルプ";
+
+"Ok" = "Ok";
+"Yes" = "はい";
+"No" = "いいえ";
+"Are you sure you want to open" = "本当に開きますか";
+"items?" = "items?";
+"Cancel" = "キャンセル";
+"error" = "エラー";
+"Can't open " = "開けません ";
+"OK" = "OK";
+"Error" = "Error";
+"You do not have write permission\nfor"
+  = "You do not have write permission\nfor";
+"Continue" = "Continue";
+"starting:" = "starting:";
+"GWorkspace is logging out!" = "GWorkspace is logging out!";
+"Wait the operations to terminate!" = "Wait the operations to terminate!";
+"Quit!" = "終了!";
+"Do you really want to quit?" = "終了しますか?";
+": no such file or directory!" = ": no such file or directory!";
+"unable to contact fswatcher\nfswatcher notifications disabled!"
+  = "unable to contact fswatcher\nfswatcher notifications disabled!";
+"The fswatcher connection died.\nDo you want to restart it?"
+  = "The fswatcher connection died.\nDo you want to restart it?";
+"fswatcher notifications disabled!" = "fswatcher notifications disabled!";
+"unable to contact Recycler!" = "unable to contact Recycler!";
+"The Recycler connection died.\nDo you want to restart it?"
+  = "ごみ箱が切断されました.\n再スタートしますか?";
+"unable to contact ddbd." = "unable to contact ddbd.";
+"ddbd connection died." = "ddbdが切断されました.";
+
+/* Workspace.m */
+"unable to contact mdextractor!" = "unable to contact mdextractor!";
+"The mdextractor connection died.\nDo you want to restart it?"
+  = "The mdextractor connection died.\nDo you want to restart it?";
+"If you do nothing, the system will log out\nautomatically in "
+  = "If you do nothing, the system will log out\nautomatically in ";
+  
+"seconds." = "seconds.";
+"The following applications:" = "The following applications:";
+"refuse to terminate." = "refuse to terminate.";
+"Kill applications" = "Kill applications";
+"Cancel logout" = "Cancel logout";
+"contacting:" = "contacting:";
+"seems to have hung" = "seems to have hung";
+
+/** FileViewer **/
+"Applications" = "アプリケーション";
+"Music" = "音楽";
+"Pictures" = "画像";
+"Videos" = "ビデオ";
+
+/** FileViewer/GWViewer GWViewersManager **/
+"Are you sure you want to open" = "Are you sure you want to open";
+"items?" = "items?";
+/*"Cancel" = "Cancel";*/
+/*"Yes" = "Yes";*/
+"error" = "error";
+"Can't open " = "Can't open ";
+"OK" = "OK";
+"You can't do this in the Recycler!" = "You can't do this in the Recycler!";
+/*"Open with" = "Open with";*/
+"File Viewer" = "ファイルビューワ";
+"unknown volume size" = "unknown volume size";
+"free" = "フリー";
+"You can't open a document that is in the Recycler!"
+  = "You can't open a document that is in the Recycler!";
+"You can't create a new folder in the Recycler!"
+  = "You can't create a new folder in the Recycler!";
+"You can't create a new file in the Recycler!"
+  = "You can't create a new file in the Recycler!";
+"You can't duplicate files in the Recycler!"
+  = "You can't duplicate files in the Recycler!";
+/*"Name" = "Name";*/
+/*"Type" = "Type";*/
+/*"Size" = "Size";*/
+/*"Modification date" = "Modification date";*/
+/*"Owner" = "Owner";*/
+/*"Left" = "Left";*/
+/*"Icon Size" = "Icon Size";*/
+/*"Icon Position" = "Icon Position";*/
+/*"Label Size" = "Label Size";*/
+"Label Color..." = "Label Color...";
+"Background Color..." = "Background Color...";
+
+/** Dialogs **/
+/* Dialogs/Dialogs.m */
+/*"Cancel" = "Cancel";*/
+"OK" = "OK";
+
+/* Dialogs/OpenWithController.m */
+"No executable found!" = "No executable found!";
+/*"Open With" = "Open With";*/
+"Type the name or the path of the application"
+  = "Type the name or the path of the application";
+"to use to open the current selection"
+  = "to use to open the current selection";
+"Can't edit a directory!" = "Can't edit a directory!";
+
+/* Dialogs/RunExternalController.m */
+"Run" = "実行";
+"Type the command to execute:"="実行するコマンドを入力する:";
+
+/* Dialogs/StartAppWin.m */
+"starting:" = "starting:";
+
+/** Preferences **/
+"Workspace Preferences" = "Workspaceの設定";
+"Editor" = "エディタ";
+"Terminal" = "ターミナル";
+"Browser" = "ブラウザ表示";
+"Sorting Order" = "ソート順序";
+"Icons" = "アイコン";
+"Hidden files" = "隠しファイル";
+"Desktop" = "デスクトップ";
+"File Operations" = "ファイル操作";
+"History" = "ヒストリ";
+
+/* DefEditorPref */
+"Choose" = "選択";
+"No Default Editor" = "デフォルトエディタ無し";
+"Default Editor" = "デフォルトエディタ"; 
+"is not a valid application!" = "is not a valid application!";
+"seems not a valid application!" = "seems not a valid application!";
+
+/* * XTermPref **/
+"Set" = "設定";
+"Terminal.app" = "Terminal.app";
+"Use Terminal service" = "Terminal serviceを使う";
+"xterm" = "xterm";
+"arguments" = "引数";
+
+/** BrowserViewerPref **/
+"Column Width" = "カラム幅";
+"Use Default Settings" = "デフォルト値を使用";
+
+/** DefSortOrderPref **/
+"Set" = "設定";
+"Sort by" = "ソート";
+/*"The method will apply to all the folders"
+  = "The method will apply to all the folders";*/
+"The method will apply to all the folders"
+  = "このソート方法は順序指定のないすべてのフォルダ";
+/*"that have no order specified" = "that have no order specified";*/
+"that have no order specified" = "に適用されます.";
+/*"Name" = "Name";*/
+"Type" = "種類";
+/*"Date" = "Date";*/
+/*"Size" = "Size";*/
+/*"Owner" = "Owner";*/
+/*"Sorting Order" = "Sorting Order";*/
+
+
+/** IconsPref **/
+"Thumbnails" = "サムネイル";
+"use thumbnails" = "サムネイルを使う";
+
+/** HiddenFilesPref **/
+"Activate changes" = "変更を有効にする";
+"Files" = "ファイル";
+"Folders" = "フォルダ";
+"Load" = "読込";
+"Shown files" = "表示ファイル";
+"Select and move the files to hide or to show"
+ = "隠しまたは表示するファイルを選択し移動する";
+"Hidden directories" = "隠しフォルダ";
+"Add" = "Add";
+"Remove" = "Remove";
+"Hidden Files" = "隠しファイル";
+"You have not write permission\nfor" = "You have not write permission\nfor";
+"Error" = "Error";
+"Continue" = "Continue";
+/*"Hide" = "Hide";*/
+
+/** DesktopPref **/
+/*"Choose" = "Choose";*/
+"Background"="背景";
+"General"="一般";
+"Color:" = "カラー:";
+"center" = "センター";
+"fit" = "フィット";
+"tile" = "タイル";
+"scale" = "スケール";
+"Use image"="imageを使う";
+"Dock" = "ドック";
+"Show Dock" = "ドックを表示";
+"Position:"="位置:";
+"Left"="左";
+"Right"="右";
+"Style:"="スタイル:";
+"Classic"="クラシック";
+"Modern"="モダン";
+"Omnipresent" = "Omnipresent";
+"Autohide Tabbed Shelf" = "Autohide Tabbed Shelf";
+"Single Click Launch" = "シングルクリックで起動";
+/*"Choose Image" = "Choose Image";*/
+
+/** OperationPrefs **/
+/* Preferences/OperationPrefs.m */
+"Confirmation"="確認";
+"Status Window"="ステータスウィンドウ";
+"Operation Preferences"="操作の設定";
+"Show status window"="ステータスウィンドウを表示";
+"Check this option to show a status window"
+  = "Check this option to show a status window";
+"during the file operations" = "during the file operations";
+"Check this option to show a status window"
+  = "ファイル操作の際にステータスウィンドウを表示するには";
+"during the file operations" = "このオプションをチェックする";
+"Move" = "Move";
+/*"Copy" = "Copy";*/
+"Link" = "Link";
+"Recycler" = "Recycler";
+/*"Duplicate" = "Duplicate";*/
+/*"Destroy" = "Destroy";*/
+"Uncheck the buttons to allow automatic confirmation"
+  = "Uncheck the buttons to allow automatic confirmation";
+"of file operations" = "of file operations";
+"Uncheck the buttons to allow automatic confirmation" 
+  = "ファイル操作の自動確認を許可する場合は";
+"of file operations" = "ボタンのチェックをはずす";
+
+/** HistoryPref **/
+/* Preferences/HistoryPref.m */
+"Number of saved paths" = "保存パスの数";
+/*"History" = "History";*/
+
+/** Desktop **/
+/* GWDesktopManager */
+"error" = "error";
+"OK" = "OK";
+"The Desktop directory has been deleted! Quitting now!"
+  = "The Desktop directory has been deleted! Quitting now!";
+"Can't open " = "Can't open ";
+"Can't create the Desktop directory!"
+  = "Can't create the Desktop directory!";
+/*"Name" = "Name";*/
+/*"Type" = "Type";*/
+/*"Size" = "Size";*/
+/*"Modification date" = "Modification date";*/
+/*"Owner" = "Owner";*/
+/*"Left" = "Left";*/
+
+/** Desktop Dock **/
+/* Dock, DockIcon */
+"Show In File Viewer" = "Show In File Viewer";
+/*"Hide" = "Hide";*/
+"Unhide" = "Unhide";
+/*"Quit" = "Quit";*/
+"Error" = "Error";
+"Continue" = "Continue";
+"error" = "error";
+"Can't open " = "Can't open ";
+"OK" = "OK";
+"You are not allowed to umount\n" = "You are not allowed to umount\n";
+"You do not have write permission\nfor"
+  = "You do not have write permission\nfor";
+
+/** Finder **/
+/* Finder/Finder.m */
+"OK" = "OK";
+"name" = "Name";
+/*"name" = "名称";*/
+"contains" = "contains";
+"is" = "is";
+"contains not" = "contains not";
+"starts with" = "starts with";
+"ends with" = "ends with";
+"No selection!" = "No selection!";
+/*"Finder" = "ファインダ";*/
+"Search in:" = "検索場所:";
+"Current selection" = "Current selection";
+"Specific places" = "指定した場所";
+"Add" = "追加";
+"Remove" = "削除";
+"Search for items whose:" = "下のアイテムを検索:";
+"Recursive" = "再帰的";
+"Search" = "検索";
+"error" = "error";
+"No Finder modules! Quitting now." = "No Finder modules! Quitting now.";
+"kind" = "種類";
+"size" = "size";
+"owner" = "owner";
+"date created" = "date created";
+"date modified"="date modified";
+"contents" = "contents";
+"open" = "open";
+"elements" = "elements";
+"No search criteria!" = "検索条件がありません!";
+
+/** Finder LiveSearch **/
+/* Finder/LiveSearch/LSFEditor.m */
+"Searching in:" = "検索中:";
+"Modules:" = "モジュール:";
+"recursive" = "再帰的";
+"Revert" = "戻す";
+"Save" = "保存";
+/* Finder/LiveSearch/LSFolder.m */
+"Continue" = "Continue";
+"elements" = "elements";
+"unable to launch the updater task." = "unable to launch the updater task.";
+"updater connection died!" = "updater connection died!";
+/*"Edit" = "Edit";*/
+"no autoupdate" = "no autoupdate";
+/*"no autoupdate" = "自動アップデートなし";*/
+"one minute" = "1分";
+"5 minutes" = "5分";
+"10 minutes" = "10分";
+"30 minutes" = "30分";
+"one hour" = "1時間";
+"2 hours" = "2時間";
+"3 hours" = "3時間";
+"6 hours" = "6時間";
+"12 hours" = "12時間";
+"a day" = "1日";
+
+"Update now" = "Update now";
+/*"Update now" = "アップデート";*/
+/*"Name" = "Name";*/
+"Parent" = "親フォルダ";
+"Date Modified" = "Date Modified";
+/*"Size" = "Size";*/
+/*"Type" = "Type";*/
+"You can't move objects with multiple parent paths!"
+  = "You can't move objects with multiple parent paths!";
+
+/** Finder Modules **/
+/* Finder/Modules/FModuleAnnotations/FModuleAnnotations.m */
+"contains one of" = "１つを含む";
+"contains all of" = "すべてを含む";
+"with exactly" = "with exactly";
+"without one of" = "without one of";
+"annotations" = "注釈";
+
+/* Finder/Modules/FModuleContents/FModuleContents.m */
+"includes" = "を含む";
+"contents"="コンテンツ";
+
+/* Finder/Modules/FModuleCrDate/FModuleCrDate.m */
+"is today" = "今日";
+"is within" = "以内";
+"is before" = "以前";
+"is after" = "以降";
+"is exactly" = "日付";
+"the last day" = "１日前";
+"the last 2 days" = "２日前";
+"the last 3 days" = "３日前";
+"the last week" = "先週";
+"the last 2 weeks" = "２週前";
+"the last 3 weeks" = "３週前";
+"the last month" = "先月";
+"the last 2 months" = "２ヶ月前";
+"the last 3 months" = "３ヶ月前";
+"the last 6 months" = "６ヶ月前";
+"date created"="作成日";
+
+/* Finder/Modules/FModuleKind/FModuleKind.m */
+"is" = "である";
+"is not" = "でない";
+"plain file" = "平文";
+"folder" = "フォルダ";
+"tool" = "ツール";
+"symbolic link" = "シンボリックリンク";
+"application" = "アプリケーション";
+"type" = "種類";
+
+/* Finder/Modules/FModuleName/FModuleName.m */
+"contains" = "を含む";
+"is" = "である";
+"contains not" = "を含まない";
+"starts with" = "で始まる";
+"ends with" = "で終わる";
+"name" = "名称";
+
+/* Finder/Modules/FModuleOwner/FModuleOwner.m */
+/*"is" = "である";*/
+"is not" = "でない";
+"owner"="所有者";
+
+/* Finder/Modules/FModuleSize/FModuleSize.m */
+"greater than" = "より大きい";
+"less than" = "より小さい";
+"size"="サイズ";
+
+/* Finder/Modules/FModuleModDate/FModuleModDate.m */
+/*"is today" = "今日";*/
+/*"is within" = "以内";*/
+/*"is before" = "以前";*/
+/*"is after" = "以降";*/
+/*"is exactly" = "日付";*/
+/*"the last day" = "the last day";*/
+/*"the last 2 days" = "the last 2 days";*/
+/*"the last 3 days" = "the last 3 days";*/
+/*"the last week" = "the last week";*/
+/*"the last 2 weeks" = "the last 2 weeks";*/
+/*"the last 3 weeks" = "the last 3 weeks";*/
+/*"the last month" = "the last month";*/
+/*"the last 2 months" = "the last 2 months";*/
+/*"the last 3 months" = "the last 3 months";*/
+/*"the last 6 months" = "the last 6 months";*/
+"date modified" = "更新日";
+
+/** SearchResults **/
+/*"Search Results" = "検索結果";*/
+/* Finder/SearchResults/SearchResults.m */
+/*"Continue" = "続ける";*/
+"Ok" = "Ok";
+"elements" = "elements";
+/*"Name" = "Name";*/
+"Parent" = "親フォルダ";
+"Date Modified" = "更新日";
+"Size"="サイズ";
+/*"Type" = "Type";*/
+"the search tool connection died!" = "the search tool connection died!";
+"unable to launch the search task." = "unable to launch the search task.";
+"New Live Search" = "New Live Search";
+"No name supplied!" = "No name supplied!";
+"can't create the Live Search folder"
+  = "can't create the Live Search folder";
+"You can't move objects with multiple parent paths!"
+  = "You can't move objects with multiple parent paths!";
+
+/** Inspector **/
+"Info" = "情報";
+/* Annotations */
+"No Annotations Inspector" = "No Annotations Inspector";
+"Annotations Inspector" = "注釈インスペクタ";
+
+/* Attributes */
+"OK" = "OK";
+"Link to:" = "リンク先:";
+"Size:" = "サイズ:";
+"Calculate" = "計算";
+"Owner:" = "所有者:";
+"Group:" = "グループ:";
+"Changed" = "変更日";
+"Permissions" = "許可";
+"Read" = "読込";
+"Write" = "書込";
+"Execute" = "実行";
+"Owner_short" = "所有者";
+"Group" = "グループ";
+"Other" = "その他";
+"also apply to files inside selection"
+  = "フォルダ内のファイルすべてに適用";
+"Revert" = "戻す";
+"Attributes Inspector" = "アトリビュートインスペクタ";
+
+/* Contents.m */
+"Text Inspector" = "Text Inspector";
+"Data Inspector" = "Data Inspector";
+"No Contents Inspector" = "No Contents Inspector";
+"Contents Inspector" = "コンテンツインスペクタ";
+/*"Edit" = "Edit";*/
+/*"Attributes" = "Attributes";*/
+
+/* Inspector.m */
+/*"Contents" = "Contents";*/
+/*"Tools" = "Tools";*/
+/*"Annotations" = "Annotations";*/
+
+/* Tools.m */
+"No Tools Inspector" = "No Tools Inspector";
+/*"No Tools Inspector" = "ツールインスペクタはありません";*/
+"Set Default" = "デフォルトに設定";
+"Tools Inspector" = "ツールインスペクタ";
+"error" = "error";
+"Can't open " = "Can't open ";
+
+/* ContentViewers/FolderViewer/FolderViewer.m */
+"Sort by" = "ソート";
+/*"Name" = "名前";*/
+/*"Type" = "Type";*/
+"Date" = "日付";
+/*"Size" = "Size";*/
+/*"Owner" = "Owner";*/
+/*"Sort method applies to the\ncontents of the selected folder,\nNOT to its parent folder"
+  = "Sort method applies to the\ncontents of the selected folder,\nNOT to its parent folder";*/
+ "Sort method applies to the\ncontents of the selected folder,\nNOT to its parent folder"
+  = "ソート方法は, 選択したフォルダの\nコンテンツに適用されます,\n親フォルダには適用されません";
+"Ok" = "Ok";
+"Folder Inspector" = "フォルダインスペクタ";
+"This Inspector allow you to sort the contents of a Folder"
+  = "This Inspector allow you to sort the contents of a Folder";
+
+/* ContentViewers/IBViewViewer/IBViewViewer.m */
+"Invalid Contents" = "Invalid Contents";
+"IBView data" = "IBView data";
+"IBView Inspector" = "IBView Inspector";
+"This Inspector allow you view IBView pasteboard data"
+  = "This Inspector allow you view IBView pasteboard data";
+
+/* ContentViewers/ImageViewer/ImageViewer.m */
+"Invalid Contents" = "Invalid Contents";
+/*"Edit" = "Edit";*/
+"Width:" = "Width:";
+"Height:" = "Height:";
+"Image Inspector" = "イメージインスペクタ";
+"This Inspector allow you view the content of an Image file"
+  = "This Inspector allow you view the content of an Image file";
+"error" = "error";
+"Can't open " = "Can't open ";
+"OK" = "OK";
+
+/* ContentViewers/NSColorViewer/NSColorViewer.m */
+"Invalid Contents" = "Invalid Contents";
+"NSColor data" = "NSColor data";
+"NSColor Inspector" = "NSColor Inspector";
+"This Inspector allow you view NSColor pasteboard data"
+  = "This Inspector allow you view NSColor pasteboard data";
+
+/* ContentViewers/NSRTFViewer/NSRTFViewer.m */
+"Invalid Contents" = "Invalid Contents";
+"NSString data" = "NSString data";
+"NSRTF data" = "NSRTF data";
+"NSRTFD data" = "NSRTFD data";
+"Rtf Inspector" = "Rtf Inspector";
+"This Inspector allow you view NSRTF pasteboard data"
+  = "This Inspector allow you view NSRTF pasteboard data";
+
+/* ContentViewers/NSTIFFViewer/NSTIFFViewer.m */
+"Invalid Contents" = "Invalid Contents";
+"Image data" = "Image data";
+"Width:" = "Width:";
+"Height:" = "Height:";
+"NSTIFF Inspector" = "NSTIFF Inspector";
+"This Inspector allow you view NSTIFF pasteboard data"
+  = "This Inspector allow you view NSTIFF pasteboard data";
+
+/* ContentViewers/PdfViewer/PdfViewer.m */
+"Invalid Contents" = "Invalid Contents";
+/*"Edit" = "Edit";*/
+"Pdf Inspector" = "Pdf Inspector";
+"This Inspector allow you View the content of a PDF file"
+  = "This Inspector allow you View the content of a PDF file";
+"error" = "error";
+"Can't open " = "Can't open ";
+"OK" = "OK";
+
+/* ContentViewers/RtfViewer/RtfViewer.m */
+"Invalid Contents" = "Invalid Contents";
+/*"Edit" = "Edit";*/
+"Rtf-Txt Inspector" = "Rtf-Txt Inspector";
+"This Inspector allow you view the content of an Rtf ot txt file"
+  = "This Inspector allow you view the content of an Rtf ot txt file";
+"error" = "error";
+"Can't open " = "Can't open ";
+"OK" = "OK";
+
+/* ContentViewers/SoundViewer/SoundViewer.m */
+"Player" = "Player";
+/*"Edit" = "Edit";*/
+"Invalid Contents" = "Invalid Contents";
+"error" = "error";
+"Can't open " = "Can't open ";
+"OK" = "OK";
+"Sound Inspector" = "Sound Inspector";
+"This Inspector allow you to play a sound file"
+  = "This Inspector allow you to play a sound file";
+  
+/** File Operation **/
+"Move to Recycler" = "ゴミ箱に移動する";
+/* FileOpInfo */
+"From:" = "From:";
+"To:" = "To:";
+"Pause" = "Pause";
+"_copy" = "_copy";
+"Move" = "移動";
+"from" = "\nfrom";
+"\nto: " = "\nto: ";
+/*"Copy" = "Copy";*/
+"Link" = "リンク";
+"Recycler" = "ごみ箱";
+/*"Duplicate" = "複製";*/
+"OK" = "OK";
+/*"Cancel" = "キャンセル";*/
+/*"Continue" = "Continue";*/
+"Ok" = "Ok";
+"In:" = "In:";
+/*"Destroy" = "Destroy";*/
+"the Recycler" = "the Recycler";
+"Some items have the same name;\ndo you want to replace them?"
+  = "Some items have the same name;\ndo you want to replace them?";
+"Recycle" = "Recycle";
+"Error" = "Error";
+"Stop" = "Stop";
+"items" = "items";
+"one item" = "one item";
+"\nto the Recycler" = "\nto the Recycler";
+/*"from the Recycler" = "from the Recycler";*/
+/*"Empty the Recycler?" = "Empty the Recycler?";*/
+"Delete" = "削除";
+"Delete the selected objects?" = "選択したオブジェクトを削除しますか?";
+"Duplicate the selected objects?" = "選択したオブジェクトを複製しますか?";
+/*"A fatal error occurred while detaching the thread!"
+  = "A fatal error occurred while detaching the thread!";*/
+/*"Only older" = "Only older";*/
+/*"executor connection died!" = "executor connection died!";*/
+/*"File operation error:" = "File operation error:";*/
+/*"with file:" = "with file:";*/
+/*"File Operation Error!" = "File Operation Error!";*/
+/*"Some files are in use by another operation!"
+  = "Some files are in use by another operation!";*/
+/*": no such file or directory!" = ": no such file or directory!";*/
+/*": Directory Protected!" = ": Directory Protected!";*/
